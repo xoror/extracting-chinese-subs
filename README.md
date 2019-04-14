@@ -9,3 +9,11 @@ sudo pip install pyocr
 ```
 
 Then try running `./main.py --test-all` to test the extraction algorithm on all test cases. To run it on a video file, you'll need to track down a 1280x720 video of one of the 他来了请闭眼 episodes with white hard subs at the bottom, similar to the test frames.
+
+```
+pip install -r requirements.txt
+```
+
+Use pafy to load youtube vids directly.
+Output chinese ocr to .sbv format. (We can use this to do auto translation in google itself)
+Optionally use google service to translate the ocr'ed subs to english (or other languages)
